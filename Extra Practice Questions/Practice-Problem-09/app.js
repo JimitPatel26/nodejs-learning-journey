@@ -14,9 +14,9 @@ const fs = require('fs');
 
 const x = {d:{a:10,b:20,c:[30,10]}};
 
-fs.writeFileSync("s2.txt",JSON.stringify(x));
+fs.writeFileSync("data/s2.txt",JSON.stringify(x));
 
-let data = fs.readFileSync("s2.txt",'utf-8');
+let data = fs.readFileSync("data/s2.txt",'utf-8');
 
 data = JSON.parse(data);
 
@@ -32,8 +32,8 @@ console.log(`subtraction of 2nd element of c and b is : ${subtraction}`);
 
 console.log(`multiplication of elements of c is : ${multiplication}`);
 
-fs.appendFileSync("s2.txt",`\nAddition of a and b is ${addition}`);
+fs.appendFileSync("data/s2.txt",`\nAddition of a and b is ${addition}`);
 
-fs.appendFileSync("s2.txt",`\nsubtraction of 2nd element of c and b is ${subtraction}`);
+fs.appendFileSync("data/s2.txt",`\nsubtraction of 2nd element of c and b is ${subtraction}`);
 
-fs.appendFileSync("s2.txt",`\nmultiplication of elements of c is ${multiplication}`);
+fs.appendFileSync("data/s2.txt",`\nmultiplication of elements of c is ${multiplication}`);
