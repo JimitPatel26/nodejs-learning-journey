@@ -1,0 +1,1 @@
+{"protocol":"http:","slashes":true,"auth":null,"host":"localhost:8080","port":"8080","hostname":"localhost","hash":null,"search":"?year=2025&month=feb","query":{"year":"2025","month":"feb"},"pathname":"/default.html","path":"/default.html?year=2025&month=feb","href":"http://localhost:8080/default.html?year=2025&month=feb"}
