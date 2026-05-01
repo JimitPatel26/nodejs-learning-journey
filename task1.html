@@ -1,0 +1,20 @@
+<!-- Initialize two variables and increment both the variables each time and display the addition
+of both the variables at interval of 1 second. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="para"></p>
+    <script>
+        let a= 12;
+        let b= 15;
+        setInterval(() => {
+            document.getElementById("para").innerHTML = (++a) + (++b);
+        },1000);
+    </script>
+</body>
+</html>
